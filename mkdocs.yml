@@ -114,7 +114,7 @@ extra:
     - icon: fontawesome/brands/git-square
       link: https://github.com/MushroomCloud/devops-docs
     - icon: fontawesome/solid/envelope
-      link: mailto:connect-it-ops@fnb.co.za
+      link: mailto:ashley@getsnappic.com
 
 extra_javascript:
   - https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js
