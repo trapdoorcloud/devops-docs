@@ -1,0 +1,17 @@
+/* below to try adjust font size from */
+/* https://github.com/pi-hole/docs/blob/master/docs/extra.css  */
+.md-nav {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.md-typeset {
+    font-size: .7rem;
+    line-height: 1.5;
+}
+
+.md-typeset code,
+.md-typeset pre {
+    white-space: pre-wrap;
+    color: var(--code-color);
+}
