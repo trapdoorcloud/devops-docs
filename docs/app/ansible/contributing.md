@@ -25,7 +25,7 @@ accepted.
 
     ```bash
     git config --global user.name "Ashley Kleynhans"
-    git config --global user.email "ashley.kleynhans@getsnappic.com"
+    git config --global user.email "ashley@getsnappic.com"
     ```
 
 1.  All changes submitted to Ansible should be via a pull

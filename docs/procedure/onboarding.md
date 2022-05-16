@@ -17,7 +17,7 @@
 - [ ] Request a Jenkins account.
 - [ ] Request access to MushroomCloud Github organization.
 - [ ] Add new user to the apppropriate Whatsapp groups.
-- [ ] Update our [team about](../team/about/) page with all of the new
+- [ ] Update our [team about](../../team/about/) page with all of the new
       members details.
 - [ ] Obtain the ansible vault passwords for `test` and `prod` from
       someone in the team.
@@ -33,7 +33,7 @@ Ensure your environment setup has all of the below setup and working well:
 
 - [ ] Install Ansible
 - [ ] [Clone and setup our Ansible
-      code](./app/ansible/quickstart/)
+      code](../../app/ansible/quickstart/)
       on your laptop.
 - [ ] WhatsApp web eg: `chrome --app="https://web.whatsapp.com"`
 - [ ] Virtualbox
@@ -43,7 +43,7 @@ Ensure your environment setup has all of the below setup and working well:
 - [ ] Use [tmux for
       cluster](https://divansantana.com/tmux-cssh-and-ansible/)
       ssh like abilities or multissh or clusterssh etc
-- [ ] Recommend [GNU Emacs](http://emacs.link/) and
+- [ ] Recommend [GNU Emacs](https://www.gnu.org/software/emacs/) and
       [spacemacs](https://github.com/syl20bnr/spacemacs/tree/develop#quickinstall)
       for text editor/IDE via the _develop_ branch, not
       master. Otherwise any good IDE/text editor setup you are
