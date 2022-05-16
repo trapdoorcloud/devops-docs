@@ -15,3 +15,10 @@
     white-space: pre-wrap;
     color: var(--code-color);
 }
+
+/* snappic colors */
+:root {
+  --md-primary-fg-color:        #2FA4E7;
+  --md-primary-fg-color--light: #2FA4E7;
+  --md-primary-fg-color--dark:  #2FA4E7;
+}
