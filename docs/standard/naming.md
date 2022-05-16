@@ -2,8 +2,9 @@
 
 ## Server Hostnames
 
+### Prefix
+
 All of our server hostnames begin with the `snap-` prefix.
-    prefixed with this.
 
 ### Machine type
 
@@ -24,3 +25,9 @@ Options:
 
 -   `-test` : Dev / test system.
 -   `-prod` : Live / Production system.
+
+### Examples
+
+* snap-openvpn-test
+* snap-rabbit-primary-test
+* snap-rabbit-secondary-node1-test
