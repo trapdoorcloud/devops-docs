@@ -1,10 +1,10 @@
 mkdocs==1.6.1
-mkdocs-material==9.5.44
+mkdocs-material==9.6.4
 markdown==3.7
-pymdown-extensions==10.12
+pymdown-extensions==10.14.3
 markdown-blockdiag==0.8.0
 markdown-include==0.8.1
 mkdocs-with-pdf==0.9.3
-wheel==0.45.0
+wheel==0.45.1
 mkdocs-redirects==1.2.2
-Jinja2==3.1.4
+Jinja2==3.1.5
