@@ -685,4 +685,4 @@ If used on inline elements the attributes are defined immediately after the elem
 [link](http://example.com){: class="foo bar" title="Some title!" }
 ```
 
-> If classes are used you may define them in an [additional CSS](#configuration) file.
+> If classes are used you may define them in an [additional CSS](https://facelessuser.github.io/pymdown-extensions/extensions/attr_list/#configuration) file.

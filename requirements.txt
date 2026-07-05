@@ -1,10 +1,9 @@
-zensical==0.0.46
+zensical==0.0.47
 markdown==3.10.2
-pymdown-extensions==10.21.3
+pymdown-extensions==11.0.1
 markdown-blockdiag==0.8.0
 markdown-include==0.8.1
 mkdocs-with-pdf==0.9.3
 wheel==0.47.0
 mkdocs-redirects==1.2.3
 Jinja2==3.1.6
-click==8.4.1

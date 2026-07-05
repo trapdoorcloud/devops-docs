@@ -418,8 +418,8 @@ custom_fences = [
 smart_enable = "all"
 
 [project.markdown_extensions.pymdownx.emoji]
-emoji_index = "material.extensions.emoji.twemoji"
-emoji_generator = "material.extensions.emoji.to_svg"
+emoji_index = "pymdownx.emoji.twemoji"
+emoji_generator = "pymdownx.emoji.to_svg"
 
 [project.markdown_extensions.pymdownx.keys]
 
