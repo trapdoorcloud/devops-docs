@@ -11,8 +11,8 @@ In your `~/.gitconfig` you would have something like this:
 
 ```
 [user]
-	name = Ashley Kleynhans
-	email = ashley@getsnappic.com
+	name = Example User
+	email = example.user@example.com
 	signingkey = 1CE52210395567C1
 [commit]
 	gpgsign = true

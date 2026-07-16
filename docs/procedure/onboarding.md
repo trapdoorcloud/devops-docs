@@ -3,20 +3,14 @@
 ### Things to do before new employee arrives
 
 - [ ] Organise a laptop for the staff member.
-- [ ] Organise an iPad for the staff member.
 - [ ] Organise a screens, keyboard, and mouse for the staff member.
-- [ ] Organise a key, remote and parking bay for the staff member.
 
 ### Actions once employee starts
 
 - [ ] Request an email account.
-- [ ] Request an Asana account.
 - [ ] Request a Slack account.
 - [ ] Request an AWS account.
-- [ ] Request a Datadog account.
 - [ ] Request a Jenkins account.
-- [ ] Request access to MushroomCloud Github organization.
-- [ ] Add new user to the apppropriate Whatsapp groups.
 - [ ] Update our [team about](../../team/about/) page with all of the new
       members details.
 - [ ] Obtain the ansible vault passwords for `test` and `prod` from
