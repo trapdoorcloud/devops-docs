@@ -11,33 +11,33 @@ get started with our ansible setup.
 
     ```bash
     xcode-select --install
-    brew install python@3.8 git ansible
+    brew install python@3.14 git ansible
     ```
 
 1.  Clone the git repository somewhere. Something like
 
     ```bash
-    mkdir -p ~/src/snappic
-    cd ~/src/snappic/
-    git clone git@github.com:MushroomCloud/aws_base.git
-    cd ~/src/snappic/aws_base
+    mkdir -p ~/src/work
+    cd ~/src/work/
+    git clone git@github.com:trapdoorcloud/ansible.git
+    cd ~/src/work/ansible
     ```
 
 1.  If you had already cloned the repository, ensure you have pulled
-    the latest code and have checked out `master` branch.
+    the latest code and have checked out `main` branch.
 
     ```bash
-    cd ~/src/snappic/aws_base
-    git checkout master
-    git pull origin master
+    cd ~/src/work/ansible
+    git checkout main
+    git pull origin main
     ```
 
 1.  Setup python environment, activate it.  Then upgrade pip and fetch
     your python requirements.
 
     ```bash
-    python3 -m venv ~/.cache/venv/ansible
-    source ~/.cache/venv/ansible/bin/activate
+    python3 -m venv .venv
+    source .venv/bin/activate
     pip install --upgrade pip
     pip install -r requirements.txt
     ```
@@ -49,14 +49,13 @@ get started with our ansible setup.
 
     ```bash
     [ashley:~] [ansible] % which ansible
-    /Users/ashley/.cache/venv/ansible/bin/ansible
+    /Users/ashley/src/work/ansible/.venv/bin/ansible
     ```
 
     !!! important
         Take note that anytime in future, when you want to
         interact with ansible, you will need to setup your shell
-        environment by simply running `source
-        ~/.cache/venv/ansible/bin/activate`.
+        environment by simply running `source ./venv/bin/activate`.
 
 1.  Run the below to fetch all our external role requirements.
 
@@ -90,8 +89,8 @@ get started with our ansible setup.
     environment into your shell before calling ansible. Example:
 
     ```bash
-    cd ~/src/snappic/aws_base/ansible
-    source ~/.cache/venv/ansible/bin/activate
+    cd ~/src/work/ansible
+    source .venv/bin/activate
     ```
 
 1.  Each playbook run should be accompanied by passing in the

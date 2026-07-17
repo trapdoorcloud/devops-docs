@@ -1,7 +1,7 @@
 # Contributing
 
 First time contributors you will need to
-[email](mailto:ashley@snappic.com) and request access to the docs
+[email](mailto:ashley@example.com) and request access to the docs
 project.  Once access is granted you can proceed.
 
 There are two ways to submits edits to the documentation:

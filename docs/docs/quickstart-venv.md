@@ -9,8 +9,8 @@
 1.  Setup python virtualenv and fetch python dependencies:
 
     ```bash
-    python3 -m venv ~/.cache/venv/devops-docs
-    source ~/.cache/venv/devops-docs/bin/activate
+    python3 -m venv .venv
+    source .venv/bin/activate
     pip install --upgrade pip
     pip install -r requirements.txt
     ```

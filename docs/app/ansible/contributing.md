@@ -18,14 +18,14 @@ accepted.
 
     ```bash
     git config --global user.name "Your Name Exactly as per email"
-    git config --global user.email "youremailaddress@getsnappic.com"
+    git config --global user.email "youremailaddress@example.com"
     ```
 
     Example is:
 
     ```bash
     git config --global user.name "Ashley Kleynhans"
-    git config --global user.email "ashley@getsnappic.com"
+    git config --global user.email "ashley@example.com"
     ```
 
 1.  All changes submitted to Ansible should be via a pull

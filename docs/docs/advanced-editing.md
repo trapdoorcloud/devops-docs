@@ -1,16 +1,16 @@
 # Advanced Editing
 
-1.  Clone [the code](https://github.com/MushroomCloud/devops-docs).
+1.  Clone [the code](https://github.com/trapdoorcloud/devops-docs).
 
     !!! tip
-        Ensure you have uploaded your ssh pub key to [your gitea
+        Ensure you have uploaded your ssh pub key to [your GitHub
         profile](https://github.com/settings/keys) so you
         can easily clone over SSH.
 
     ```bash
-    mkdir -p ~/src/snappic/devops-docs
-    git clone git@github.com:MushroomCloud/devops-docs.git ~/src/snappic/devops-docs
-    cd ~/src/snappic/devops-docs
+    mkdir -p ~/src/work/devops-docs
+    git clone git@github.com:trapdoorcloud/devops-docs.git ~/src/work/devops-docs
+    cd ~/src/work/devops-docs
     ```
 
 1.  Start the website by running `:::bash docker-compose up`.
@@ -37,4 +37,4 @@
         [presetup markdown editors out there](presetup markdown editors out there).
 
 1.  Same as any code project, [submit a pull
-    request](https://github.com/MushroomCloud/devops-docs/pulls).
+    request](https://github.com/trapdoorcloud/devops-docs/pulls).

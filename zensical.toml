@@ -1,11 +1,11 @@
 [project]
 site_name = "DevOps Documentation"
-site_url = "http://docs.snappic.xyz/"
+site_url = "https://docs.trapdoor.cloud/"
 site_author = "Ashley Kleynhans & DevOps Team"
-repo_url = "https://github.com/MushroomCloud/DevopsDocs"
+repo_url = "https://github.com/trapdoorcloud/devops-docs"
 edit_uri = "edit/main/docs/"
 site_description = "DevOps Engineers Documentation"
-copyright = "Copyright &copy; 2022 SnapPic DevOps team"
+copyright = "Copyright &copy; 2026 Trapdoor.cloud DevOps team"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js"]
 nav = [
@@ -25,6 +25,19 @@ nav = [
       "procedure/git-signing.md",
     ]},
     {"Onboarding DevOps member" = "procedure/onboarding.md"},
+  ]},
+  {"Applications" = [
+    {"Ansible" = [
+      {"Overview" = "app/ansible/overview.md"},
+      {"Quickstart" = "app/ansible/quickstart.md"},
+      {"Contributing" = "app/ansible/contributing.md"},
+      {"Inventory" = "app/ansible/inventory.md"},
+      {"Group Vars" = "app/ansible/group-vars.md"},
+      {"Local Dev Setup" = "app/ansible/local-development-setup.md"},
+      {"Troubleshooting" = "app/ansible/troubleshooting.md"},
+      {"Tips" = "app/ansible/tips.md"},
+      {"Project Structure" = "app/ansible/project-structure.md"},
+    ]},
   ]},
   {"Team" = [
     "team/about.md",
@@ -70,8 +83,7 @@ enabled_if_env = "ENABLE_PDF_EXPORT"
 
 [project.plugins.redirects]
 redirect_maps = {
-  "app/ansible.md" = "infra/ansible/overview.md",
-  "app/aws.md" = "infra/aws/overview.md",
+  "app/ansible.md" = "infra/ansible/overview.md"
 }
 
 [project.markdown_extensions.extra]
@@ -124,12 +136,12 @@ clickable_checkbox = true
 
 [[project.extra.social]]
 icon = "fontawesome/solid/book-open-reader"
-link = "https://docs.snappic.xyz/"
+link = "https://docs.trapdoor.cloud/"
 
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/MushroomCloud/DevopsDocs"
+link = "https://github.com/trapdoorcloud/devops-docs"
 
 [[project.extra.social]]
 icon = "fontawesome/solid/envelope"
-link = "mailto:ashley@getsnappic.com"
+link = "mailto:ashley@example.com"

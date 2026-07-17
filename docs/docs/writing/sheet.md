@@ -50,23 +50,23 @@ A horizontal line may be used to separate:
 
 Use some inline text formatting:
 
-| Format                       | Example                                                 | Result                                                |
-| -------------------          | -----------------------------                           | -----------------------------------------             |
-| Italic                       | `_Italic_` or `*Italic*`                                | _Italic_                                              |
-| Bold                         | `__Bold__` or `**Bold**`                                | **Bold**                                              |
-| Superscript                  | `H^2^O`                                                 | H^2^O                                                 |
-| Subscript                    | `CH~3~CH~2~OH`                                          | CH~3~CH~2~OH                                          |
-| Insert                       | `^^Insert^^`                                            | ^^Insert^^                                            |
-| Delete                       | `~~Delete me~~`                                         | ~~Delete me~~                                         |
-| Mark                         | `==mark me==`                                           | ==mark me==                                           |
-| Emoji                        | `:smile:`                                               | :smile:                                               |
-| Code                         | \`echo "Hello"\`                                        | `echo "Hello"`                                        |
-| Code + Highlighting          | \`:::bash echo "Hello"\`                                | `:::bash echo "Hello"`                                |
-| Keys                         | `++ctrl+alt+h++`                                        | ++ctrl+alt+h++                                        |
-| Link                         | `[Text](http://my-site.com)`                            | [Text](http://my-site.com)                            |
-| Image                        | `![Logo](../img/snappic-logo.svg)`                          | ![Logo](../img/snappic-logo.svg)                          |
-| Image (Smaller)              | `![Logo](../img/snappic-logo.svg){: style="width:150px"}`   | ![Logo](../img/snappic-logo.svg){: style="width:150px"}   |
-| Image (which is also a link) | `[![Logo](../img/snappic-logo.svg)](https://getsnappic.com)` | [![Logo](../img/snappic-logo.svg)](https://getsnappic.com) |
+| Format                       | Example                                                   | Result                                                  |
+| -------------------          |-----------------------------------------------------------|---------------------------------------------------------|
+| Italic                       | `_Italic_` or `*Italic*`                                  | _Italic_                                                |
+| Bold                         | `__Bold__` or `**Bold**`                                  | **Bold**                                                |
+| Superscript                  | `H^2^O`                                                   | H^2^O                                                   |
+| Subscript                    | `CH~3~CH~2~OH`                                            | CH~3~CH~2~OH                                            |
+| Insert                       | `^^Insert^^`                                              | ^^Insert^^                                              |
+| Delete                       | `~~Delete me~~`                                           | ~~Delete me~~                                           |
+| Mark                         | `==mark me==`                                             | ==mark me==                                             |
+| Emoji                        | `:smile:`                                                 | :smile:                                                 |
+| Code                         | \`echo "Hello"\`                                          | `echo "Hello"`                                          |
+| Code + Highlighting          | \`:::bash echo "Hello"\`                                  | `:::bash echo "Hello"`                                  |
+| Keys                         | `++ctrl+alt+h++`                                          | ++ctrl+alt+h++                                          |
+| Link                         | `[Text](http://my-site.com)`                              | [Text](http://my-site.com)                              |
+| Image                        | `![Logo](../img/example-logo.svg)`                        | ![Logo](../img/example-logo.svg)                        |
+| Image (Smaller)              | `![Logo](../img/example-logo.svg){: style="width:150px"}` | ![Logo](../img/example-logo.svg){: style="width:150px"} |
+| Image (which is also a link) | `[![Logo](../img/example-logo.svg)](https://example.com)` | [![Logo](../img/example-logo.svg)](https://example.com) |
 
 ### Lists
 
